@@ -28,6 +28,8 @@ python Code/eval.py Data/ratings.csv algorithm's_name.predictions
 python test.py
 ```
 
+Upon running the test suite, a list of all the algorithms, their execution with different number of neighbours, their corresponding mean absolute erros and time taken for predictions (in seconds) is dislpayed.
+
 ### Algorithm Names (for command line arguments) ###
 * pearson
 * spearman
