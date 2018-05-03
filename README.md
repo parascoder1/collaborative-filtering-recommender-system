@@ -33,3 +33,14 @@ python test.py
 * spearman
 * mean_squared
 * cosine
+
+### Example ###
+```
+$ pip install -r requirements.txt
+$ python Code/runner.py --mode train --algorithm spearman --model-file spearman.model --data Data/ratings.csv
+$ python Code/runner.py --mode test --algorithm spearman --model-file spearman.model --num-neighbors 3 --data Data/ratings.csv --predictions-file spearman.predictions
+$ python Code/eval.py Data/ratings.csv spearman.predictions
+```
+
+
+
