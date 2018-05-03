@@ -1,14 +1,14 @@
-# collaborativer-filtering-recommender-system
+# Collaborative Filtering Recommender System
 A Recommender System based on the Collaborative Filtering Techinique
 
 # How to run:
 
-'''
-pip install -r requirements.txt
-python test.py
-'''
+```
+$ pip install -r requirements.txt
+$ python test.py
+```
 
-Results:
+# Results:
 
 On running the test suite, the program outputs the algorithms used,
 the number of neighbours, accuracy and time taken for predictions.
